@@ -20,7 +20,7 @@ export const state = () => ({
   lastNews: null,
   currPost: null,
   allStaff: null,
-  lastStaff: null,
+  // lastStaff: null,
   currDoc: null,
   services: null,
   currServ: null,
@@ -77,9 +77,9 @@ export const mutations = {
   SET_ALL_STAFF: (state, data) => {
     state.allStaff = data
   },
-  SET_LAST_STAFF: (state, data) => {
-    state.lastStaff = data
-  },
+  // SET_LAST_STAFF: (state, data) => {
+  //   state.lastStaff = data
+  // },
   SET_CURR_DOC: (state, data) => {
     state.currDoc = data
   },
